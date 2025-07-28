@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 375px) {
+    main.card {
+      width: 90%;
+    }
+  }
+  
+body{
+    font-family: 'outfit', sans-serif;
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* کارت */
+main.card{
+    background-color: hsl(0, 0%, 100%) ;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+/* تصویر*/
+main.card>img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+/* متن تیتر */
+main.card>h1{
+    font-size: 1.2rem;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: 1rem 0 0.5rem;
+}
+
+/* متن توضیحی */
+main.card>p{
+    font-size: 15px;
+    color: hsl(216, 15%, 48%); 
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+}
+main.card>div.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+    margin-top: 1rem;
+}
+main.card>div.attribution> a {
+    color: hsl(228, 45%, 44%); 
+}
